@@ -1,21 +1,25 @@
 # Model-Predictive-Control
 
-In this project, a Model Predictive Control algorithm is implemented in MATLAB.
-This work was done within the labs in the Control of Mechatronic Systems course on my own proposal, and approved and mentored by prof. Ervin Kamenar. 
-The idea was to develop the MPC algorithm for pneumatic artificial muscle which would be used in a robotic exoskeleton for stroke rehabilitation patients.
-This project was intended to be a starting point on which future generations of students would continue to work and explore.
+This project implements a custom Model Predictive Control (MPC) algorithm in MATLAB, developed as part of the Mechatronic Systems course. The work was proposed independently and conducted under the mentorship of Prof. Ervin Kamenar. 
+The project’s objective was to design an MPC controller for a **pneumatic artificial muscle (PAM)** intended for use in a robotic exoskeleton for post-stroke rehabilitation. The implementation is designed to be a flexible starting point for future students and researchers working in advanced control of soft actuators.
 
 Key features:
 - Model Predictive Control theory - parameters and principles
-- code development in MATLAB (a custom-written code from scratch, without MPC toolbox)
-- testing the algorithm on a state-space model of a separately excited DC motor with constant excitation, and pneumatic artificial muscle
-- implementation of input constraints and state constraints; both are hard constraints and soft constraints are not implemented due to the scope of course
-- comparison with LQR (used for validation of the results)
+- Custom implementation of MPC in MATLAB (no toolbox, no Simulink)
+- Full modeling of system dynamics for:
+  - A separately excited DC motor (reference system)
+  - A pneumatic artificial muscle actuator
+- Input and state constraint handling (hard constraints only, due to scope limits)
+- Comparison with LQR controller for validation
+- Reference tracking and constraint adherence in simulation
 
 Tools used:
 - MATLAB (without Simulink)
+- `quadprog` for solving constrained quadratic programs
 
-Due to the complexity and extensiveness of the topic, the algorithm was not implemented on real hardware, but all simulations were ran successfully and provided valid results, including reference tracking, input constraints, and state constraints.
+Notes:
+- All testing was performed in simulation only.
+- The control algorithm was **not implemented on hardware**, but the simulation successfully demonstrated reference tracking and constraint handling.
 
 > 📎 Full project report (in English) is available in the provided PDF file.
 
@@ -23,4 +27,4 @@ Due to the complexity and extensiveness of the topic, the algorithm was not impl
 Author:
 Leonard Mikša,
 MSc Electrical Engineering student,
-Email: leonardmiksa@gmail.com
+Email: [leonardmiksa@gmail.com](mailto:leonardmiksa@gmail.com)
