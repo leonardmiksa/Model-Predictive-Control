@@ -29,3 +29,12 @@ Author:
 Leonard Mikša,
 MSc Electrical Engineering student,
 Email: [leonardmiksa@gmail.com](mailto:leonardmiksa@gmail.com)
+
+
+---
+
+## 📊 Simulation Results
+
+The figure below compares the responses of the system under both MPC and LQR control strategies. The MPC demonstrates comparable reference tracking performance with the added benefit of constraint enforcement and flexibility for future nonlinear extension.
+
+![MPC vs LQR Comparison](MPCvsLQR.png)
