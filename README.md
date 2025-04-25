@@ -18,8 +18,9 @@ Tools used:
 - `quadprog` for solving constrained quadratic programs
 
 Notes:
-- All testing was performed in simulation only.
-- The control algorithm was **not implemented on hardware**, but the simulation successfully demonstrated reference tracking and constraint handling.
+- All testing was performed in simulation only
+- The control algorithm was **not implemented on hardware**, but the simulation successfully demonstrated reference tracking and constraint handling
+- Some corrections and modifications were done on-the-fly, and are extensively described in the last section of the project report
 
 > 📎 Full project report (in English) is available in the provided PDF file.
 
