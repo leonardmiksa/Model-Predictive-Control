@@ -21,6 +21,7 @@ Notes:
 - All testing was performed in simulation only
 - The control algorithm was **not implemented on hardware**, but the simulation successfully demonstrated reference tracking and constraint handling
 - Some corrections and modifications were done on-the-fly, and are extensively described in the last section of the project report
+- The state-space model for PAM is approximated by a simple mass-spring-damper system with arbitrary parameters, but dynamics should be correct
 
 > 📎 Full project report (in English) is available in the provided PDF file.
 
