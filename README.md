@@ -23,7 +23,9 @@ Notes:
 - Some corrections and modifications were done on-the-fly, and are extensively described in the last section of the project report
 - The state-space model for PAM is approximated by a simple mass-spring-damper system with arbitrary parameters, but dynamics should be correct
 
-> 📎 Full project report (in English) is available in the provided PDF file.
+[> 📎 Full project report (in English) is available in the provided PDF file.](report_room_temperature_control.pdf)
+[> 📎 Three project presentations (in English) are available in the provided PDF files.](report_room_temperature_control.pdf)
+
 
 
 Author:
