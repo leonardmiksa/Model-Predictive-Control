@@ -23,8 +23,13 @@ Notes:
 - Some corrections and modifications were done on-the-fly, and are extensively described in the last section of the project report
 - The state-space model for PAM is approximated by a simple mass-spring-damper system with arbitrary parameters, but dynamics should be correct
 
-[> 📎 Full project report (in English) is available in the provided PDF file.](report_room_temperature_control.pdf)
-[> 📎 Three project presentations (in English) are available in the provided PDF files.](report_room_temperature_control.pdf)
+[> 📎 Full project report (in English) is available in the provided PDF file.](MPC_Leonard_Miksa.pdf)
+
+[> 📎 First project presentation (in English) focusing on theory is available in the provided PDF file.](MPC_Leonard_Miksa_1.pdf)
+
+[> 📎 Second project presentation (in English) focusing on MATLAB implementation is available in the provided PDF file.](MPC_Leonard_Miksa_2.pdf)
+
+[> 📎 Third project presentation (in English) focusing on corrections and modifications is available in the provided PDF file.](MPC_Leonard_Miksa_3.pdf)
 
 
 
