@@ -1,4 +1,4 @@
-# Model-Predictive-Control
+# Model Predictive Control
 
 This project implements a custom Model Predictive Control (MPC) algorithm in MATLAB, developed as part of the *Control of Mechatronic Systems* course. The work was proposed independently and conducted under the mentorship of Prof. Ervin Kamenar. 
 The project’s objective was to design an MPC controller for a **pneumatic artificial muscle (PAM)** intended for use in a robotic exoskeleton for post-stroke rehabilitation. The implementation is designed to be a flexible starting point for future students and researchers working in advanced control of soft actuators.
