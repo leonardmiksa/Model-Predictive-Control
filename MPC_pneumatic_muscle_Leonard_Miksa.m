@@ -44,8 +44,8 @@ Dd = sys_disc.D;
 
 %Discrete-time LQR:
 Q = [10000    0    0;             %Higher Q1 means more aggresive control of the displacement (but with bigger air consumption)
-     0    10    0;                %Higher Q2 means slower response (penalizing speed) ???
-     0    0    100]               %Higher Q3 means lower air consumption (worse displacement response)
+     0    10    0;            
+     0    0    100]           
 R = 1;  
 Ksystem = dlqr(Ad, Bd, Q, R);     %Discrete-time LQR gain
 
@@ -255,7 +255,7 @@ for k = 1:steps
 
     %% Solving the quadratic programming problem:
     %options = optimset('Display', 'off');
-    u_opt = quadprog(H, f, [], [], [], [], [], [], []);
+    u_opt = quadprog(H, f, F_total, b_total, [], [], [], [], []);  
 
     control_inputs(:, k) = u_opt(1:m);                      %Storing control inputs for the horizon
     u = u_opt(1);                                           %Extracting the first control input
